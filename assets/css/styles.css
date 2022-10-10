@@ -14,9 +14,37 @@ body{
 /*============
 Navigation
 =============*/
-.dashboard .navigation {
+.dashboard .navigation {    /*==This styling deals with the entirety of the navigation bar=*/
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     width: 100%;
     margin-top: 10px;
 }
+
+.dashboard .navigation img.logo{        /*==This styling deals with logo, specifically the rocket ship==*/
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.dashboard .navigation img.user{        /*==This styling deals with the user image, meant to reflect the profile of said user==*/
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.dashboard .navigation div .material-symbols-outlined{      /*==This styling deals with recoloring, resizing, and reorienting the icon images==*/
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+}
+
+.dashboard .navigation div {        /*==Not totally sure of what this does, was just following the tutorial - I think it deals with making a larger margin for the icons?==*/
+    margin-top: 10px;
+}
+
+/*===============
+Main Dashboard
+=================*/
+
